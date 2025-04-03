@@ -22,7 +22,7 @@
                 <div class="flex justify-center items-center gap-4">
                     <img src="assets/checkbox.png" alt="">
                     <h4 id="nav-number" class="text-2xl font-bold">23</h4>
-                    <img class="ml-5" src="assets/theme-btn.png" alt="">
+                    <img id="bg-btn" class="ml-5" src="assets/theme-btn.png" alt="">
                 </div>
             </div>
         </nav>
@@ -42,11 +42,11 @@
                         <img src="assets/checkbox.png" alt="">
                         <div>
                             <p class="font-semibold">Task Assigned </p>
-                            <h3 id="task-number" class="text-2xl font-bold">05</h3>
+                            <h3 id="task-number" class="text-2xl font-bold">06</h3>
                         </div>
                     </div>
 
-                    <div class="flex justify-center items-center gap-6 m-2
+                    <div id="change-page" class="flex justify-center items-center gap-6 m-2
             bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8]
             rounded p-2 px-5">
                         <img src="assets/board.png" alt="">
@@ -72,7 +72,7 @@
                 <div class="p-4 m-2 bg-slate-100 rounded-xl">
                     <button class="btn bg-white rounded-xl border-none">Shope Ease</button>
                     <h4 class="text-2xl font-semibold">Flex Mobile Button Issue</h4>
-                    <p class="bg-white py-4 p-2 my-3 text-[#000000] font-normal">Debug using Chrome devTools <br> ,check
+                    <p class="bg-white py-4 p-2 my-3 text-[#000000] font-normal">Debug using Chrome devTools  ,check
                         for overlapping </p>
                     <div class="flex justify-between items-center">
                         <div>
@@ -94,7 +94,7 @@
                             <p>Deadline</p>
                             <data value="21 March 2025" class="font-bold text-sm">21 March 2025</data>
                         </div>
-                        <button class="btn text-white bg-[#3752FD] rounded-sm">completed</button>
+                        <button id="btn-2" class="btn text-white bg-[#3752FD] rounded-sm">completed</button>
                     </div>
                 </div>
 
@@ -107,7 +107,7 @@
                             <p>Deadline</p>
                             <data value="21 March 2025" class="font-bold text-sm">21 March 2025</data>
                         </div>
-                        <button class="btn text-white bg-[#3752FD] rounded-sm">completed</button>
+                        <button id="btn-3" class="btn text-white bg-[#3752FD] rounded-sm">completed</button>
                     </div>
                 </div>
 
@@ -120,7 +120,7 @@
                             <p>Deadline</p>
                             <data value="21 March 2025" class="font-bold text-sm">21 March 2025</data>
                         </div>
-                        <button class="btn text-white bg-[#3752FD] rounded-sm">completed</button>
+                        <button id="btn-4" class="btn text-white bg-[#3752FD] rounded-sm">completed</button>
                     </div>
                 </div>
 
@@ -133,7 +133,7 @@
                             <p>Deadline</p>
                             <data value="21 March 2025" class="font-bold text-sm">21 March 2025</data>
                         </div>
-                        <button class="btn text-white bg-[#3752FD] rounded-sm">completed</button>
+                        <button id="btn-5" class="btn text-white bg-[#3752FD] rounded-sm">completed</button>
                     </div>
                 </div>
 
@@ -146,7 +146,7 @@
                             <p>Deadline</p>
                             <data value="21 March 2025" class="font-bold text-sm">21 March 2025</data>
                         </div>
-                        <button class="btn text-white bg-[#3752FD] rounded-sm">completed</button>
+                        <button id="btn-6" class="btn text-white bg-[#3752FD] rounded-sm">completed</button>
                     </div>
                 </div>
 
@@ -167,7 +167,13 @@
                 </div>
 
                 <div class="flex justify-center mt-4">
-                    <button class="btn  bg-[#3752FD] text-white ">clear History</button>
+                    <button id="clear-btn" class="btn  bg-[#3752FD] text-white ">clear History</button>
+                </div>
+
+                <div>
+                    <div id="history-title">
+
+                    </div>
                 </div>
             </div>
 
@@ -176,8 +182,10 @@
    </section>
 
 
-   <script src="script/login.js"></script>
+   <script src="script/btn.js"></script>
    <script src="script/utiliti.js"></script>
+   <script src="script/btn-bg-color.js"></script>
+   <script src="script/change.js"></script>
 </body>
 
 </html>
