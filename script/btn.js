@@ -22,8 +22,8 @@ document.getElementById("btn-1")
             const div = document.createElement("div");
 
             div.innerHTML = `
-            <p>You have Complete The Task Add</p>
-             <p> Dark Mode at: ${newTime}</P>
+            <p>You have Complete The Task </p>
+             <p>Flex Mobile Button Issue ${newTime}</P>
             
             `
             historyTitle.appendChild(div);
@@ -60,8 +60,8 @@ document.getElementById("btn-2")
             const div = document.createElement("div");
 
             div.innerHTML = `
-            <p>You have Complete The Task Add</p>
-             <p> Dark Mode at: ${newTime}</P>
+            <p>You have Complete The Task </p>
+             <p> Add Dark Mode ${newTime}</P>
             
             `
             historyTitle.appendChild(div);
@@ -98,7 +98,7 @@ document.getElementById("btn-3")
 
             div.innerHTML = `
             <p>You have Complete The Task Add</p>
-             <p> Dark Mode at: ${newTime}</P>
+             <p> Optimize Home pagee ${newTime}</P>
             
             `
             historyTitle.appendChild(div);
@@ -133,8 +133,8 @@ document.getElementById("btn-4")
             const div = document.createElement("div");
 
             div.innerHTML = `
-            <p>You have Complete The Task Add</p>
-             <p> Dark Mode at: ${newTime}</P>
+            <p>You have Complete The Task </p>
+             <p> Add new emoji 🤲 ${newTime}</P>
             
             `
             historyTitle.appendChild(div);
@@ -170,8 +170,8 @@ document.getElementById("btn-5")
             const div = document.createElement("div");
 
             div.innerHTML = `
-            <p>You have Complete The Task Add</p>
-             <p> Dark Mode at: ${newTime}</P>
+            <p>You have Complete The Task </p>
+             <p> Integrate OpenAI API ${newTime}</P>
             
             `
             historyTitle.appendChild(div);
@@ -205,15 +205,15 @@ document.getElementById("btn-6")
             const div = document.createElement("div");
 
             div.innerHTML = `
-            <p>You have Complete The Task Add</p>
-             <p> Dark Mode at: ${newTime}</P>
+            <p>You have Complete The Task </p>
+             <p> Improve Job searching ${newTime}</P>
             
             `
             historyTitle.appendChild(div);
 
 
             document.getElementById("btn-6").disabled = true;
-
+            alert('You have Complete all the current task')
         }
 
     })
@@ -223,3 +223,8 @@ document.getElementById("clear-btn")
     .addEventListener("click", function () {
         document.getElementById("history-title").innerHTML = "";
     })
+
+
+    // ----------------------
+    let dateDay =  new Date().toLocaleDateString();
+    document.getElementById("date-wed").innerText = dateDay;

@@ -9,7 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="mx-9 bg-gray-100">
+<body class=" md:mx-9 bg-gray-100">
     <header>
         <nav>
             <div class="flex justify-between mt-3 bg-white rounded m-2">
@@ -29,13 +29,13 @@
     </header>
 
     <!-- main section start-->
-    <section class="grid grid-cols-4 mt-3">
+    <section class=" md:grid grid-cols-4 mt-3">
 
         <!-- new today start  -->
         <section class="mt-8 col-span-3 m-2">
             <div id="New Today">
 
-                <div class="flex justify-between bg-white">
+                <div class="grid md:grid-cols-3 bg-white">
 
                     <div class="flex justify-center p-2 m-2
                       items-center gap-6 bg-gray-100 rounded">
@@ -47,8 +47,8 @@
                     </div>
 
                     <div id="change-page" class="flex justify-center items-center gap-6 m-2
-            bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8]
-            rounded p-2 px-5">
+                      bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8]
+                     rounded p-2 px-5">
                         <img src="assets/board.png" alt="">
                         <h2 class="font-semibold text-2xl text-white">Discover Something <br> New Today</h2>
                     </div>
@@ -58,7 +58,7 @@
                         <img src="assets/calender.png" alt="">
                         <div>
                             <p class="text-2xl">Wed , </p>
-                            <data value="" class="font-bold text-2xl">jul 28 2025</data>
+                            <data id="date-wed" value="" class="font-bold text-2xl">jul 28 2025</data>
                         </div>
                     </div>
 
@@ -67,7 +67,7 @@
             </div>
 
             <!-- card start -->
-            <div class="grid grid-cols-3 bg-white">
+            <div class="grid md:grid-cols-3 bg-white">
 
                 <div class="p-4 m-2 bg-slate-100 rounded-xl">
                     <button class="btn bg-white rounded-xl border-none">Shope Ease</button>
