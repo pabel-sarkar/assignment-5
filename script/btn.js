@@ -20,7 +20,8 @@ document.getElementById("btn-1")
             let newTime = new Date().toLocaleTimeString();
             const historyTitle = document.getElementById("history-title");
             const div = document.createElement("div");
-
+            div.style.marginTop = '24px'
+            
             div.innerHTML = `
             <p>You have Complete The Task </p>
              <p>Flex Mobile Button Issue ${newTime}</P>
@@ -58,6 +59,7 @@ document.getElementById("btn-2")
             let newTime = new Date().toLocaleTimeString();
             const historyTitle = document.getElementById("history-title");
             const div = document.createElement("div");
+            div.style.marginTop = '24px'
 
             div.innerHTML = `
             <p>You have Complete The Task </p>
@@ -95,7 +97,7 @@ document.getElementById("btn-3")
             let newTime = new Date().toLocaleTimeString();
             const historyTitle = document.getElementById("history-title");
             const div = document.createElement("div");
-
+            div.style.marginTop = '24px'
             div.innerHTML = `
             <p>You have Complete The Task Add</p>
              <p> Optimize Home pagee ${newTime}</P>
@@ -131,6 +133,7 @@ document.getElementById("btn-4")
             let newTime = new Date().toLocaleTimeString();
             const historyTitle = document.getElementById("history-title");
             const div = document.createElement("div");
+            div.style.marginTop = '24px'
 
             div.innerHTML = `
             <p>You have Complete The Task </p>
@@ -168,6 +171,7 @@ document.getElementById("btn-5")
             let newTime = new Date().toLocaleTimeString();
             const historyTitle = document.getElementById("history-title");
             const div = document.createElement("div");
+            div.style.marginTop = '24px'
 
             div.innerHTML = `
             <p>You have Complete The Task </p>
@@ -203,6 +207,7 @@ document.getElementById("btn-6")
             let newTime = new Date().toLocaleTimeString();
             const historyTitle = document.getElementById("history-title");
             const div = document.createElement("div");
+            div.style.marginTop = '24px'
 
             div.innerHTML = `
             <p>You have Complete The Task </p>
